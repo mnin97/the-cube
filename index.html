@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
+
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.22/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <style>
+    .hidden {
+      overflow: hidden;
+    }
+  </style>
+  <body class="hidden">
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="dimmed"></div>
+        <span class="blind">메뉴</span>
+
+        <nav class="gnb">
+          <ul class="nav-list">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Building</a>
+            </li>
+            <li>
+              <a href="">Story</a>
+            </li>
+            <li>
+              <button class="detail-menu">menu</button>
+            </li>
+            <li>
+              <a href="">Location</a>
+            </li>
+            <li>
+              <a href="">Availability</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <aside class="menu-box [side-nav]">
+          <span class="blind">닫기버튼</span>
+          <button class="close" data-toggle="">close</button>
+          <ul class="menu-list">
+            <li data-toggle="">
+              <span class="blind">메인화면으로 이동</span>
+              <a href="">Home</a>
+            </li>
+            <li data-toggle="">
+              <span class="blind">빌딩페이지로 이동</span>
+              <a href="">Building</a>
+            </li>
+            <li data-toggle="">
+              <span class="blind">스토리페이지로 이동</span>
+              <a href="">Story</a>
+            </li>
+            <li data-toggle="">
+              <span class="blind">로케이션페이지로 이동</span>
+              <a href="">Location</a>
+            </li>
+          </ul>
+          <ul class="link-more">
+            <li data-toggle="">Availability</li>
+            <li data-toggle="">Contact</li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="sc-visual">
+        <div class="bg-wrapper">
+          <video
+            class="video"
+            src="./assets/video/video.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+          <div class="text-area">
+            <div class="text1">The</div>
+            <div class="text2">Cube</div>
+            <div class="text3">House</div>
+          </div>
+        </div>
+
+        <div class="front">
+          <div class="text-area">
+            <div class="text1">The</div>
+            <div class="text2">Cube</div>
+            <div class="text3">House</div>
+          </div>
+        </div>
+
+        <div class="text-area2">
+          <span class="text"
+            >The first hybrid-timber building at the Zuidas</span
+          >
+        </div>
+      </section>
+
+      <!--  -->
+
+      <section class="landmark">
+        <span class="blind">랜드마크 제목입니다.</span>
+        <h2 class="head-line">
+          The first
+          <br />
+          hybrid-timber
+          <br />
+          building at the
+          <br />
+          Zuidas
+        </h2>
+
+        <div class="content-wrapper">
+          <div class="img-box" data-scroll="">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/1950x2924/cf9ba29453/stocksy_txpfaa671a2k3j300_large_4883606.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="writing-wrapper">
+            <h3 class="title">Creating New Dimensions</h3>
+            <p class="desc">
+              Offices today are not what they once <br />
+              used to be. The CubeHouse is a next- <br />generation office
+              building, designed to <br />
+              inspire, connect and accelerate <br />
+              tomorrow’s working world. Our three- <br />
+              dimensional approach creates spaces <br />
+              where visitors, businesses and nature <br />
+              can thrive, proving that sometimes the <br />
+              best things come from thinking inside <br />the box.
+            </p>
+            <p class="desc2">
+              Unwilling to settle for just excelling in <br />
+              one area, The CubeHouse pushes the <br />
+              envelope on every front. As the very <br />
+              first hybrid timber builbrding of the <br />
+              Zuidas, well-connected to all parts of <br />the city and publicly
+              accessible, it truly <br />ticks all the boxes. Add to this a
+              vibrant <br />
+              entrance, lively rooftop gardens, <br />integrated breathe spaces
+              and stunning <br />
+              views and there you have it: a future- <br />
+              proof office building, empowering users <br />
+              to reach their full potential day after <br />
+              day.
+            </p>
+            <button class="link-more">available floors</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="innovative">
+        <div class="inner">
+          <span class="blind">이노베이트 영역 제목</span>
+          <h2 class="head-line">
+            A unique place to <br />
+            work at
+          </h2>
+          <ul class="content-list">
+            <li class="list-item">
+              <div class="img-box">
+                <img
+                  src="	https://img2.storyblok.com/375x573/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <h3 class="title">
+                The first hybrid-timber <br />
+                building at the <br />
+                Amsterdam Zuidas
+              </h3>
+              <p class="desc">
+                The CubeHouse will be <br />Paris Proof upon delivery, <br />
+                certified with a WELL-gold <br />
+                indoor climate, and <br />
+                various unique features <br />
+                promoting sustainability <br />
+                and well-being.
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/375x573/filters:quality(80)/f/229367/2766x2075/7dbb74bbd0/hannah-sibayan-_tewggeytvu-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h3 class="title">
+                The first hybrid-timber <br />
+                building at the <br />
+                Amsterdam Zuidas
+              </h3>
+              <p class="desc">
+                The CubeHouse will be <br />Paris Proof upon delivery, <br />
+                certified with a WELL-gold <br />
+                indoor climate, and <br />
+                various unique features <br />
+                promoting sustainability <br />
+                and well-being.
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/375x573/filters:quality(80)/f/229367/3840x2160/844c7ba194/interior-psd-final.png"
+                  alt=""
+                />
+              </div>
+              <h3 class="title">
+                The first hybrid-timber <br />
+                building at the <br />
+                Amsterdam Zuidas
+              </h3>
+              <p class="desc">
+                The CubeHouse will be <br />Paris Proof upon delivery, <br />
+                certified with a WELL-gold <br />
+                indoor climate, and <br />
+                various unique features <br />
+                promoting sustainability <br />
+                and well-being.
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/375x573/filters:quality(80)/f/229367/1733x1155/9ae4a97357/public-accessible.jpg"
+                  alt=""
+                />
+              </div>
+              <h3 class="title">
+                The first hybrid-timber <br />
+                building at the <br />
+                Amsterdam Zuidas
+              </h3>
+              <p class="desc">
+                The CubeHouse will be <br />Paris Proof upon delivery, <br />
+                certified with a WELL-gold <br />
+                indoor climate, and <br />
+                various unique features <br />
+                promoting sustainability <br />
+                and well-being.
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/375x573/filters:quality(80)/f/229367/4000x1334/2a39d27c48/pv-panels.jpg"
+                  alt=""
+                />
+              </div>
+              <h3 class="title">
+                The first hybrid-timber <br />
+                building at the <br />
+                Amsterdam Zuidas
+              </h3>
+              <p class="desc">
+                The CubeHouse will be <br />Paris Proof upon delivery, <br />
+                certified with a WELL-gold <br />
+                indoor climate, and <br />
+                various unique features <br />
+                promoting sustainability <br />
+                and well-being.
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/375x573/filters:quality(80)/f/229367/1154x1734/840aceadae/stocksy_txpfaa671a2k3j300_medium_4985854.jpg"
+                  alt=""
+                />
+              </div>
+              <h3 class="title">
+                The first hybrid-timber <br />
+                building at the <br />
+                Amsterdam Zuidas
+              </h3>
+              <p class="desc">
+                The CubeHouse will be <br />Paris Proof upon delivery, <br />
+                certified with a WELL-gold <br />
+                indoor climate, and <br />
+                various unique features <br />
+                promoting sustainability <br />
+                and well-being.
+              </p>
+            </li>
+          </ul>
+          <div class="link-more-wrapper">
+            <span class="link-more-title">Already convinced? </span>
+            <a href="" class="link-more"> available floors </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="comprehensive">
+        <div class="inner">
+          <span class="blind">컴프리헨시브 타이틀입니다</span>
+          <h2 class="head-line">Versatile and fully equipped</h2>
+          <div class="content-inner">
+            <div class="img-box" data-scroll="">
+              <img
+                src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/2800x4000/dbe16554e0/22_s7_g-s-cubehouse-stills_cam005.jpg"
+                alt=""
+              />
+            </div>
+
+            <ul class="list">
+              <li>
+                <div class="content-box">
+                  <div class="img-wrapper">
+                    <img
+                      src="https://img2.storyblok.com/143x143/filters:quality(80)/f/229367/4000x2501/332ac61c4d/22_s6_g-s-cubehouse-stills_cam006.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="title">
+                    13 Floors in total: <br />
+                    <span class="desc">Approx. 16,300 sq.m.</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="content-box">
+                  <div class="img-wrapper">
+                    <img
+                      src="https://img2.storyblok.com/143x143/filters:quality(80)/f/229367/4000x2501/332ac61c4d/22_s6_g-s-cubehouse-stills_cam006.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="title">
+                    13 Floors in total: <br />
+                    <span class="desc">Approx. 16,300 sq.m.</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="content-box">
+                  <div class="img-wrapper">
+                    <img
+                      src="https://img2.storyblok.com/143x143/filters:quality(80)/f/229367/4000x2501/332ac61c4d/22_s6_g-s-cubehouse-stills_cam006.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="title">
+                    13 Floors in total: <br />
+                    <span class="desc">Approx. 16,300 sq.m.</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="content-box">
+                  <div class="img-wrapper">
+                    <img
+                      src="https://img2.storyblok.com/143x143/filters:quality(80)/f/229367/4000x2501/332ac61c4d/22_s6_g-s-cubehouse-stills_cam006.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="title">
+                    13 Floors in total: <br />
+                    <span class="desc">Approx. 16,300 sq.m.</span>
+                  </p>
+                </div>
+
+                <!-- 이미지 부분이 너무 큰데 어떻게 해결하나요? -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-peaturebanner">
+        <ul class="list">
+          <li>
+            <div class="big-wrapper">
+              <span class="title">BREEAM Excellent</span>
+              <div class="icon-wrapper">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="#353535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="sub-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/800x800/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="desc">
+                Rated ‘excellent’ according to the BREEAM standards, The
+                CubeHouse scores very high as a sustainably built environment.
+                Being BREEAM Excellent certified, means we work towards a
+                holistic approach to achieve ESG (Environmental, Social and
+                Governmental factor), health and net zero goals.
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="big-wrapper">
+              <span class="title">BREEAM Excellent</span>
+              <div class="icon-wrapper">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="#353535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="sub-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/800x800/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="desc">
+                Rated ‘excellent’ according to the BREEAM standards, The
+                CubeHouse scores very high as a sustainably built environment.
+                Being BREEAM Excellent certified, means we work towards a
+                holistic approach to achieve ESG (Environmental, Social and
+                Governmental factor), health and net zero goals.
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="big-wrapper">
+              <span class="title">BREEAM Excellent</span>
+              <div class="icon-wrapper">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="#353535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="sub-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/800x800/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="desc">
+                Rated ‘excellent’ according to the BREEAM standards, The
+                CubeHouse scores very high as a sustainably built environment.
+                Being BREEAM Excellent certified, means we work towards a
+                holistic approach to achieve ESG (Environmental, Social and
+                Governmental factor), health and net zero goals.
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="big-wrapper">
+              <span class="title">BREEAM Excellent</span>
+              <div class="icon-wrapper">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="#353535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="sub-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/800x800/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="desc">
+                Rated ‘excellent’ according to the BREEAM standards, The
+                CubeHouse scores very high as a sustainably built environment.
+                Being BREEAM Excellent certified, means we work towards a
+                holistic approach to achieve ESG (Environmental, Social and
+                Governmental factor), health and net zero goals.
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="big-wrapper">
+              <span class="title">BREEAM Excellent</span>
+              <div class="icon-wrapper">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="#353535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="sub-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/800x800/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="desc">
+                Rated ‘excellent’ according to the BREEAM standards, The
+                CubeHouse scores very high as a sustainably built environment.
+                Being BREEAM Excellent certified, means we work towards a
+                holistic approach to achieve ESG (Environmental, Social and
+                Governmental factor), health and net zero goals.
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="big-wrapper">
+              <span class="title">BREEAM Excellent</span>
+              <div class="icon-wrapper">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="#353535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="sub-item">
+              <div class="img-box">
+                <img
+                  src="https://img2.storyblok.com/800x800/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="desc">
+                Rated ‘excellent’ according to the BREEAM standards, The
+                CubeHouse scores very high as a sustainably built environment.
+                Being BREEAM Excellent certified, means we work towards a
+                holistic approach to achieve ESG (Environmental, Social and
+                Governmental factor), health and net zero goals.
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="read-more">Read more</div>
+      </section>
+      <section class="peaturebanner">
+        <div class="img-box">
+          <div class="img active">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/4000x2667/afcf90a96d/22_s8_g-s-cubehouse-stills_cam003_02-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/1154x1734/840aceadae/stocksy_txpfaa671a2k3j300_medium_4985854.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/4206x2754/8c6efed233/binnentuin.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/1733x1155/1d3b64f87e/stocksy_txpfaa671a2k3j300_medium_25996.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/1950x2924/cf9ba29453/stocksy_txpfaa671a2k3j300_large_4883606.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://img2.storyblok.com/1824x1725/filters:quality(80)/f/229367/2800x4000/dbe16554e0/22_s7_g-s-cubehouse-stills_cam005.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="title-box">
+            <span class="title">BREEAM Excellent</span>
+            <span class="title">Bio-based materials</span>
+            <span class="title">Paris Proof</span>
+            <span class="title">Reuse grey water system</span>
+            <span class="title">WELL Gold </span>
+            <span class="title">Rooftop garden</span>
+          </div>
+
+          <div class="desc">
+            <h2 class="desc-title">Rooftop garden</h2>
+            The publicly accessible rooftop garden
+            <br />
+            adds lush greenery to a rather petrified <br />
+            Zuidas. Here, tenants and visitors can <br />
+            enjoy lunch outdoors, surrounded by a <br />
+            variety of flora and fauna. Apart from <br />
+            boosting employees’ work pleasure and <br />
+            well-being, the rooftop garden ensures <br />
+            coolness when needed and store large <br />
+            amounts of water (after heavy rain fall). <br />
+            This combination of greenery and water <br />
+            storage, means that The CubeHouse <br />
+            will be a climate-adaptive office <br />
+            complex.
+            <a href="" class="read-more">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="available">
+        <span class="blind">available 타이틀입니다.</span>
+        <h2 class="head-line">
+          Available <br />
+          office spaces
+        </h2>
+
+        <div class="content-inner">
+          <div class="content-box" data-menu="1">
+            <div class="img-content">
+              <div class="img-box">
+                <span class="img-title">Available</span>
+                <img
+                  src="https://img2.storyblok.com/180x180/filters:quality(80)/f/229367/7017x9933/ecade29d40/09062023-tch-v1-bixgens-zonder-bi-logo.jpg"
+                  alt=""
+                />
+              </div>
+              <h3>Office</h3>
+              <div class="main-content-box">
+                <div class="item">
+                  <div class="item-list">
+                    <span class="title">Floor</span>
+                    <span class="desc">1st floor</span>
+                  </div>
+                  <div class="item-list">
+                    <span class="title">LFA</span>
+                    <span class="desc">approx. 1,472 sq.m.</span>
+                  </div>
+                  <div class="item-list">
+                    <span class="title">Status</span>
+                    <span class="desc">Available</span>
+                  </div>
+                </div>
+                <div class="btn-wrapper">
+                  <button class="more-info">More info</button>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 6V18M12 18L7 13M12 18L17 13"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-nav" id="1">
+            <div class="content-wrapper">
+              <div class="desc-box">
+                <span class="blind">사이드 제목입니다.</span>
+                <h2 class="title">The 1st floor</h2>
+                <p class="desc">
+                  The flexible divisible office space <br />
+                  located on the first floor includes <br />
+                  approx. 1,472 square meters LFA. A <br />combination of fixed
+                  workstations,<br />
+                  boardrooms and collaborative spaces <br />
+                  caters to all working styles. On this <br />
+                  floor, <br />
+                  you will find options for working <br />
+                  alone as well as working together. And <br />
+                  of course there is plenty of space for <br />
+                  relaxation in between meetings and <br />
+                  meeting your next deadline – from <br />
+                  informal sitting areas to a trendy coffee <br />
+                  corner. <br /><br />
+                  With a WELL-gold certified indoor <br />
+                  climate and unique features, offices <br />
+                  located on the first floor truly prioritize <br />
+                  your employees’ needs. All workspaces <br />
+                  are centered around offering beautiful <br />
+                  views from every office and a great <br />quality/ price
+                  ratio. The CubeHouse <br />
+                  offers tenants a sustainable, creative <br />
+                  and productive environment that <br />
+                  empowers them to reach their full <br />
+                  potential and <br />
+                  drive collaboration and <br />
+                  innovation.
+                </p>
+                <div class="btn-wrapper">
+                  <button class="download">Download floorplan</button>
+                </div>
+              </div>
+              <div class="main-vs">
+                <div class="img-box">
+                  <img
+                    src="https://img2.storyblok.com/1170x0/filters:quality(80)/f/229367/7017x9933/ecade29d40/09062023-tch-v1-bixgens-zonder-bi-logo.jpg"
+                    alt=""
+                  />
+                </div>
+                <ul class="list">
+                  <li>
+                    <div class="text">
+                      <span>Usable area</span>
+                      <span>APProx. 1,472 sq.m LFA</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text">
+                      <span>Floor</span>
+                      <span>1st</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content-box point" data-menu="2">
+            <div class="img-content">
+              <div class="img-box">
+                <span class="img-title">Available</span>
+                <img
+                  src="https://img2.storyblok.com/180x180/filters:quality(80)/f/229367/7017x9933/ecade29d40/09062023-tch-v1-bixgens-zonder-bi-logo.jpg"
+                  alt=""
+                />
+              </div>
+              <h3>Office</h3>
+              <div class="main-content-box">
+                <div class="item">
+                  <div class="item-list">
+                    <span class="title">Floor</span>
+                    <span class="desc">1st floor</span>
+                  </div>
+                  <div class="item-list">
+                    <span class="title">LFA</span>
+                    <span class="desc">approx. 1,472 sq.m.</span>
+                  </div>
+                  <div class="item-list">
+                    <span class="title">Status</span>
+                    <span class="desc">Available</span>
+                  </div>
+                </div>
+                <div class="btn-wrapper">
+                  <button class="more-info">More info</button>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 6V18M12 18L7 13M12 18L17 13"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-nav" id="2">
+            <div class="content-wrapper">
+              <div class="desc-box">
+                <span class="blind">사이드 제목입니다.</span>
+                <h2 class="title">The 2nd floor</h2>
+                <p class="desc">
+                  The flexible divisible office space <br />
+                  located on the first floor includes <br />
+                  approx. 1,472 square meters LFA. A <br />combination of fixed
+                  workstations,<br />
+                  boardrooms and collaborative spaces <br />
+                  caters to all working styles. On this <br />
+                  floor, <br />
+                  you will find options for working <br />
+                  alone as well as working together. And <br />
+                  of course there is plenty of space for <br />
+                  relaxation in between meetings and <br />
+                  meeting your next deadline – from <br />
+                  informal sitting areas to a trendy coffee <br />
+                  corner. <br /><br />
+                  With a WELL-gold certified indoor <br />
+                  climate and unique features, offices <br />
+                  located on the first floor truly prioritize <br />
+                  your employees’ needs. All workspaces <br />
+                  are centered around offering beautiful <br />
+                  views from every office and a great <br />quality/ price
+                  ratio. The CubeHouse <br />
+                  offers tenants a sustainable, creative <br />
+                  and productive environment that <br />
+                  empowers them to reach their full <br />
+                  potential and <br />
+                  drive collaboration and <br />
+                  innovation.
+                </p>
+                <div class="btn-wrapper">
+                  <button class="download">Download floorplan</button>
+                </div>
+              </div>
+              <div class="main-vs">
+                <div class="img-box">
+                  <img
+                    src="https://img2.storyblok.com/1170x0/filters:quality(80)/f/229367/7017x9933/ecade29d40/09062023-tch-v1-bixgens-zonder-bi-logo.jpg"
+                    alt=""
+                  />
+                </div>
+                <ul class="list">
+                  <li>
+                    <div class="text">
+                      <span>Usable area</span>
+                      <span>APProx. 1,472 sq.m LFA</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text">
+                      <span>Floor</span>
+                      <span>1st</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content-box" data-menu="3">
+            <div class="img-content">
+              <div class="img-box">
+                <span class="img-title">Available</span>
+                <img
+                  src="https://img2.storyblok.com/180x180/filters:quality(80)/f/229367/7017x9933/ecade29d40/09062023-tch-v1-bixgens-zonder-bi-logo.jpg"
+                  alt=""
+                />
+              </div>
+              <h3>Office</h3>
+              <div class="main-content-box">
+                <div class="item">
+                  <div class="item-list">
+                    <span class="title">Floor</span>
+                    <span class="desc">1st floor</span>
+                  </div>
+                  <div class="item-list">
+                    <span class="title">LFA</span>
+                    <span class="desc">approx. 1,472 sq.m.</span>
+                  </div>
+                  <div class="item-list">
+                    <span class="title">Status</span>
+                    <span class="desc">Available</span>
+                  </div>
+                </div>
+                <div class="btn-wrapper">
+                  <button class="more-info">More info</button>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 6V18M12 18L7 13M12 18L17 13"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-nav" id="3">
+            <div class="content-wrapper">
+              <div class="desc-box">
+                <span class="blind">사이드 제목입니다.</span>
+                <h2 class="title">The 3rd floor</h2>
+                <p class="desc">
+                  The flexible divisible office space <br />
+                  located on the first floor includes <br />
+                  approx. 1,472 square meters LFA. A <br />combination of fixed
+                  workstations,<br />
+                  boardrooms and collaborative spaces <br />
+                  caters to all working styles. On this <br />
+                  floor, <br />
+                  you will find options for working <br />
+                  alone as well as working together. And <br />
+                  of course there is plenty of space for <br />
+                  relaxation in between meetings and <br />
+                  meeting your next deadline – from <br />
+                  informal sitting areas to a trendy coffee <br />
+                  corner. <br /><br />
+                  With a WELL-gold certified indoor <br />
+                  climate and unique features, offices <br />
+                  located on the first floor truly prioritize <br />
+                  your employees’ needs. All workspaces <br />
+                  are centered around offering beautiful <br />
+                  views from every office and a great <br />quality/ price
+                  ratio. The CubeHouse <br />
+                  offers tenants a sustainable, creative <br />
+                  and productive environment that <br />
+                  empowers them to reach their full <br />
+                  potential and <br />
+                  drive collaboration and <br />
+                  innovation.
+                </p>
+                <div class="btn-wrapper">
+                  <button class="download">Download floorplan</button>
+                </div>
+              </div>
+              <div class="main-vs">
+                <div class="img-box">
+                  <img
+                    src="https://img2.storyblok.com/1170x0/filters:quality(80)/f/229367/7017x9933/ecade29d40/09062023-tch-v1-bixgens-zonder-bi-logo.jpg"
+                    alt=""
+                  />
+                </div>
+                <ul class="list">
+                  <li>
+                    <div class="text">
+                      <span>Usable area</span>
+                      <span>APProx. 1,472 sq.m LFA</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text">
+                      <span>Floor</span>
+                      <span>1st</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="" class="link-more"> All floors </a>
+      </section>
+
+      <section class="connecting">
+        <span class="blind">connecting 타이틀입니다</span>
+        <h2 class="head-line">
+          Connecting the <br />
+          Amsterdam Zuidas
+        </h2>
+
+        <div class="mobile-content-box">
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/1395x1395/filters:quality(80)/f/229367/1402x1401/b8bef604e7/ns-trein.jpg"
+              alt=""
+            />
+            <p class="desc">Only 2 minutes away from Zuidas Station</p>
+          </div>
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/1395x1395/filters:quality(80)/f/229367/1733x1155/bb6977f8c6/trein.jpg"
+              alt=""
+            />
+            <p class="desc">5 minutes travel time to Schiphol Airport</p>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <div class="content-box active">
+            <div class="img-box">
+              <img
+                src="https://img2.storyblok.com/1395x1395/filters:quality(80)/f/229367/1402x1401/b8bef604e7/ns-trein.jpg"
+                alt=""
+              />
+              <p class="desc">Only 2 minutes away from Zuidas Station</p>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <div class="img-box">
+              <img
+                src="https://img2.storyblok.com/1395x1395/filters:quality(80)/f/229367/1733x1155/bb6977f8c6/trein.jpg"
+                alt=""
+              />
+              <p class="desc on">Only 2 minutes away from Zuidas Station</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="only">
+        <span class="blind">only 타이틀 입니다.</span>
+        <div class="content-wrapper">
+          <img
+            src="https://img2.storyblok.com/1080x1266/filters:quality(80)/f/229367/1800x1013/048159112a/station.jpg"
+            alt=""
+          />
+
+          <div class="desc-wrapper">
+            <h1 class="head-line">
+              Only 8 minute travel <br />
+              time to Amsterdam <br />
+              Central
+            </h1>
+            <p class="desc">
+              The CubeHouse is designed with the <br />
+              15-minute City concept in mind. This <br />
+              means that everyone should have <br />
+              access to essential urban services <br />
+              within a 15-minute walk or bike ride. <br />
+              Thanks to its location at the heart of <br />
+              the Zuidas, The CubeHouse is perfectly <br />
+              connected. It will only take you 2 <br />
+              minutes to get to the new Zuidas <br />
+              Station (by foot); 5 minutes to Schiphol <br />
+              International Airport (by train) and 8 <br />
+              minutes to Amsterdam Central Station <br />
+              (by train). Various shops and <br />
+              restaurants in the beating heart of the <br />
+              Zuidas, as well as numerous schools <br />
+              and universities, are just around the <br />
+              corner. <br />
+              <br />
+              The CubeHouse aligns perfectly with <br />
+              the cities plans for the Zuidasdok. This <br />
+              plan envisions the Zuidas as <br />
+              Amsterdam’s second center, a well- <br />connected, international
+              area where <br />
+              working, living and enjoying life are all <br />
+              interconnected.
+              <a href="" class="link-more">Read more</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="become">
+        <div class="become-content-wrapper">
+          <span class="blind">become 타이틀입니다.</span>
+          <div class="businese-card-wrapper">
+            <h2 class="head-line">
+              Become <br />
+              part of The <br />
+              CubeHouse
+            </h2>
+            <div class="businese-card-box">
+              <div class="businese-card">
+                <img
+                  src="https://img2.storyblok.com/330x0/filters:quality(80)/f/229367/135x40/a888002ffe/gs.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-box">
+                <span class="name">G&S&</span>
+                <span class="number"
+                  >+31 20 673 3779
+                  <br />
+                  info@gens.nl</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="desc-wrapper">
+            <span class="title">Only three more floors left!</span>
+            <p class="desc">
+              Are you ready to accelerate your <br />
+              business? Contact us today and see <br />
+              firsthand how our prime location, <br />
+              flexible design, and modern amenities <br />can elevate your
+              company to new <br />heights!
+            </p>
+            <a href="" class="link-more">available floors</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="header-box">
+          <span class="blind">제목</span>
+          <h2 class="head-line">
+            Your like-minded <br />colleagues are <br />
+            already here.
+          </h2>
+          <div class="join-box">
+            <a href="" class="link-more">Join today</a>
+          </div>
+        </div>
+        <div class="text">안녕하세여ㅑ</div>
+        <div class="img-wrapper">
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/672x672/filters:quality(80)/f/229367/1950x2924/cf9ba29453/stocksy_txpfaa671a2k3j300_large_4883606.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/672x672/filters:quality(80)/f/229367/4000x2667/51abaa92eb/22_s9_g-s-cubehouse-stills_cam003.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/672x672/filters:quality(80)/f/229367/1600x2000/14dd2e2026/the-cube-replace-later.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/672x672/filters:quality(80)/f/229367/4000x2667/a7b90306cf/22_s9_g-s-cubehouse-stills_cam001.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/672x672/filters:quality(80)/f/229367/4000x2501/8561cbc527/22_s9_g-s-cubehouse-stills_cam006-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img-box">
+            <img
+              src="https://img2.storyblok.com/672x672/filters:quality(80)/f/229367/2925x1949/7a127d812e/stocksy_txpfaa671a2k3j300_large_4493784.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <ul class="mobile-list">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Building</a>
+          </li>
+          <li>
+            <a href="">Story</a>
+          </li>
+          <li>
+            <a href="">Location</a>
+          </li>
+          <li>
+            <a href="">Availability</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+        <ul class="list">
+          <li>
+            <a href="" class="line">Cookie policy</a>
+          </li>
+          <li>
+            <a href="">Privacy policy</a>
+          </li>
+          <li>
+            <a href="">Disclaimer</a>
+          </li>
+          <li>
+            <span>© 2023 The CubeHouse</span>
+          </li>
+          <li>
+            <span>
+              A
+              <a href="" class="line">Disclaimer</a>
+              development
+            </span>
+          </li>
+          <li>
+            <span>
+              Brand by
+              <a href="" class="line">Jetway</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              Site by
+              <a href="" class="line">Stuurmen</a>
+            </span>
+          </li>
+        </ul>
+        <div class="getBtn-wrapper">
+          <div class="btn-wrapper">
+            <button class="get-btn">
+              <span>Get in touch</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 12H20M20 12L16 8M20 12L16 16"
+                  stroke="#353535"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="dimmed"></div>
+    <div class="fix-alarm">
+      <div class="main-box">
+        <span class="close2">Close</span>
+        <h2 class="title">Become part of The CubeHouse</h2>
+        <div class="desc-box">
+          <div class="sub-box">
+            <a href="" class="title">G&S&</a>
+            <a href="" class="number">+31 20 673 3779</a>
+            <a href="" class="email">info@gens.nl</a>
+            <a href="" class="img-wrapper">
+              <div class="img-box2">
+                <img
+                  src="https://img2.storyblok.com/330x0/filters:quality(80)/f/229367/135x40/a888002ffe/gs.svg"
+                  alt=""
+                />
+              </div>
+            </a>
+          </div>
+          <div class="office-btn-wrapper">
+            <div class="btn-box">
+              <a href="">
+                <span>Available office spaces</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
